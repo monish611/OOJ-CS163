@@ -1,4 +1,4 @@
-//file Student.java in Aish/CIE
+//file Student.java in monish/CIE
 package CIE;
 import java.util.Scanner;
 public class Student{
@@ -20,7 +20,7 @@ System.out.println("Name: " + this.name + "\nUSN: " + this.usn + "\nSem: " + thi
 }
 }
 
-//file Internal.java in AIsh/CIE
+//file Internal.java in monish/CIE
 package CIE;
 import java.util.Scanner;
 public class Internal extends CIE.Student{
@@ -42,7 +42,7 @@ System.out.println("Marks of sub" + (i+1) + " = " + m[i]);
 }
 }
 
-//file External.java in AIsh/SEE
+//file External.java in monish/SEE
 package SEE;
 import java.util.Scanner;
 import CIE.Internal;
@@ -64,7 +64,7 @@ System.out.println("Marks of sub" + (i+1) + " = " + x[i]);
 }
 }
 
-//file Final.java in Aish
+//file Final.java in monish
 import java.util.Scanner;
 import CIE.Student;
 import CIE.Internal;
